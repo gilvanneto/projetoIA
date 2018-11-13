@@ -52,8 +52,6 @@ public class GA_Master extends BotMaster {
 		for (int newBotId = _elitism; newBotId < _populationSize; newBotId += 2) {
 			GA_Bot newBot1 = new GA_Bot();
 			GA_Bot newBot2 = new GA_Bot();
-			//CopyGenes(newBot1, _population[PseudoTournamentSelection(_pseudoTournamentSize, _pseudoTournamentWorstSelectionProb)]);
-			//CopyGenes(newBot2, _population[PseudoTournamentSelection(_pseudoTournamentSize, _pseudoTournamentWorstSelectionProb)]);
 			CopyGenes(newBot1, _population[RouletteSelection()]);
 			CopyGenes(newBot2, _population[RouletteSelection()]);
 			CrossOver(newBot1, newBot2, _crossOverProbability);			
