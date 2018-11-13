@@ -143,17 +143,11 @@ public class Runner {
 		for (int generation = 0; generation < _generations; ++generation) {
 			startTime = System.currentTimeMillis();
 			populationIdBestLastGen = populationIdBest;
-//			
-//			if (generation < 25)
-//				opponentNames = new String[]{"sample.Fire",};
-//			else
-//				opponentNames = new String[]{"sample.TrackFire",};
-			
+
 			// create generation
 			if (generation == 0)
 				botMaster.CreateInitialPopulation();
 			else
-//				botMaster.GetBots();
 				botMaster.Evolve();
 			System.out.println("Bots for generation "+generation+ " evolved.");
 			
