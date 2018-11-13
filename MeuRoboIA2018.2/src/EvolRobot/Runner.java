@@ -15,14 +15,8 @@ public class Runner {
 
 	private static String[] _defaultOpponents = { 
 		"sample.Crazy", 
-		//"sample.Corners", 
-//		"sample.SpinBot",
-		//"sample.RamFire", 
-		//"sample.Target",
-		//"sample.MyFirstRobot",
-//		"sample.Fire",
-		//"MartinTest.MartinTestRobot1*",
-		//"sample.TrackFire",
+		//"sample.Walls", 
+		//"sample.RamFire",
 	};
 	
 	private String _evolutionName;
@@ -173,9 +167,7 @@ public class Runner {
 					" is " + (populationAverageFitness) + 
 					" and cycle took " + (System.currentTimeMillis() - startTime) + " ms ");
 			
-			
-			// clear old generation
-			//ClearBotGeneration(generation - 1, populationIdBestLastGen, false);
+		
 			
 			// write results
 			WriteFitnesses(fitnesses);
