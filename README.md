@@ -3,4 +3,4 @@ Projeto da disciplina de Inteligência Artificial no período 2018.2 do Curso de
 
 Utilização de Algoritmos Genéticos e Funções Heurísticas para criação de um robô na Plataforma Robocode.
 
-Grupo
+Grupo: Alberto Wagner, Anissa Mayara, Caio Marinho, Gilvan Neto e Jennifer Lucena.
