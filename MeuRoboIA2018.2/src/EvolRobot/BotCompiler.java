@@ -9,11 +9,6 @@ import java.util.Random;
  */
 public final class BotCompiler {
 
-	// These 3 static Strings contain specified information of robocode paths 
-	/* FYI : my robocode path is "D:/robocode/"
-	 *		 my folder for robots is named in "D:/robocode\\robots\\robotevolution\\"
-	 *		 my package for robots MUST be named after previous folder (robotevolution)
-	 */
 	public static String _path = new String("c:/Users/Alberto/Desktop/robocode-ia-master/robocode-ia-master/robocode/robots/robotevolution");
 	public static String _package = new String("robotevolution");
 	public static String _jar = new String("c:/Users/Alberto/Desktop/robocode-ia-master/robocode-ia-master/robocode/libs/robocode.jar;");
